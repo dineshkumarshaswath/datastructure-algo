@@ -156,4 +156,3 @@ for (let j = 1; j < arr.length; j++) {
 }
 console.log(i + 1)
 //--------------------------------
-//this is the part one of the array
