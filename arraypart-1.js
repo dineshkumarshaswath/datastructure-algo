@@ -139,20 +139,20 @@ return 'yes'
 //-------------------------------------------
 
 //Remove duplicates in-place from sorted array
- // brute force force but will take some o(N log N) sc=o(N)
- let arr=[1,1,2,2,2,3,3,3,4]
+// brute force force but will take some o(N log N) sc=o(N)
+let arr = [1, 1, 2, 2, 2, 3, 3, 3, 4]
 //  arr=[...new Set(arr)]
 //  console.log(arr) 
- 
- //optimal solution
- //it will take the o(N ) timing
- 
-let i=0
-for(let j=1;j<arr.length;j++){
-    if(arr[i]!=arr[j]){
-        arr[i+1]=arr[j]
+
+//optimal solution
+//it will take the o(N ) timing
+
+let i = 0
+for (let j = 1; j < arr.length; j++) {
+    if (arr[i] != arr[j]) {
+        arr[i + 1] = arr[j]
         i++
     }
 }
-console.log(i+1)
+console.log(i + 1)
 //--------------------------------
